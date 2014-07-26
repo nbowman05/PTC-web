@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+@font-face
+{
+	font-family: Valera;
+	src:url(../VarelaRound-Regular.otf);	
+}
+input
+{
+	border: 1px solid white;
+	font-family:Valera,"Lucida Sans";	
+}
+body
+{
+	background-color: #183134;
+	color: #ffffff;
+	
+}
+div#record_body
+{
+	width: 960px;
+	font-family:Valera,"Lucida Sans";	
+	margin: 0 auto;		
+}
+h1#record_title
+{
+	font-size:60pt;
+	font-weight:normal;
+	padding-top:85px;
+}
+div#record_main
+{
+	font-size:15pt;
+	width:;
+	padding-top:60px;
+	margin:0 auto;
+	width:800px;	
+}
+div#record_main *
+{
+	display:inline-block;	
+	
+}
+div#record_main h2
+{
+	font-weight:normal;
+
+}
+input#record_submit
+{
+	background-image: 	url(submit.png);
+	background-repeat:	no-repeat;
+	background-color:	transparent;
+	height:			34px;
+	width:			96px;
+	border:			none;
+	text-indent:		-999em;		
+}
+#record_main h2
+{
+	padding-right:25px;
+	padding-left:25px;
+	position:relative;
+	top:5px;
+}
+input#record_submit
+{
+	position:relative;
+	left:20px;
+}
